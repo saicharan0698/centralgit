@@ -7,4 +7,5 @@ EXPOSE 80
 CMD [“apache2ctl”, “-D”, “FOREGROUND”]
 ENV test
 EXPOSE 2020
+EXPOSE 2021
 
